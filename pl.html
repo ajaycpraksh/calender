@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".datepicker" ).datepicker({
+        dateFormate: "dd/mm/yy"
+    });
+    
+    
+  } );
+  </script>
+  <style>
+    .datepicker{
+    width: 200px;
+    height: 30px;
+    font-size: xx-large;
+    /* font-weight: bolder; */
+    /* border-color: rgb(241, 6, 6); */
+    margin-top: 350px;
+    border-radius: 5px;
+    
+     /* border-width: ; */
+         
+    }
+div{
+    /* background-color: black; */
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 350px; */
+    /* width: 200px; */
+    
+
+}
+
+ .ui-datepicker-week-end{
+    color: rgb(237, 91, 91);
+
+ }
+ .ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled{
+    background-color: rgb(49, 52, 50);
+
+ }
+ 
+ .ui-datepicker-month{
+    color: rgb(247, 247, 252);
+ }
+ .ui-datepicker-title{
+    background-color: rgb(168, 157, 226);
+    
+ }
+ .ui-datepicker-year{
+    color: rgb(238, 6, 6);
+
+ }
+    
+
+  .ui-datepicker-calendar tr td:first-child a{
+    color: rgb(242, 20, 20);
+
+  } 
+
+  </style>
+</head>
+<body style="background-color: rgb(212, 194, 171);">
+ 
+<div class="div">DATE: <input type="text" class="datepicker"></div>
+ 
+ 
+</body>
+</html>
